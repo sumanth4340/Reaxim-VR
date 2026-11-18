@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad8e66f0416cf4e519ea424ef904fc63, type: 3}
+  m_Name: BenchTheme
+  m_EditorClassIdentifier: Assembly-CSharp::Bench.UI.UITheme
+  glassFill: {r: 0.05882353, g: 0.07058824, b: 0.09411765, a: 1}
+  glassOpacityHome: 0.75
+  glassOpacityWorkspace: 0.6
+  glassRim: {r: 1, g: 1, b: 1, a: 0.4}
+  darkGlassFill: {r: 0.07058824, g: 0.09411765, b: 0.1254902, a: 1}
+  darkGlassOpacity: 0.78
+  solidPanelFill: {r: 0.05882353, g: 0.07058824, b: 0.09411765, a: 1}
+  windowRadius: 28
+  cardRadius: 20
+  edgeWidth: 2
+  sweepPeriod: 8
+  overlayTint: {r: 0.5882353, g: 0.7058824, b: 0.8235294, a: 1}
+  overlayOpacity: 0.55
+  causticIntensity: 0.025
+  causticSpeed: 0.12
+  driftSpeed: 0.02
+  textPrimary: {r: 0.95686275, g: 0.96862745, b: 0.98039216, a: 1}
+  textSecondary: {r: 0.654902, g: 0.7019608, b: 0.7490196, a: 1}
+  accent: {r: 0.36078432, g: 0.88235295, b: 0.9019608, a: 1}
+  success: {r: 0.2901961, g: 0.87058824, b: 0.5019608, a: 1}
+  warning: {r: 1, g: 0.7058824, b: 0.32941177, a: 1}
+  error: {r: 1, g: 0.41960785, b: 0.41960785, a: 1}
+  interRegular: {fileID: 11400000, guid: e0165c1518255441992245e6c0ccef98, type: 2}
+  interSemiBold: {fileID: 11400000, guid: 6ce409c9f855f46889c635dd5da3bc4d, type: 2}
+  monoRegular: {fileID: 11400000, guid: 4a172c9b99b1643d79f8ccbf4952a887, type: 2}
+  monoBold: {fileID: 11400000, guid: faaf9a82f3aad43cb951eaed92af4142, type: 2}
+  titleSize: 40
+  headingSize: 32
+  bodySize: 28
+  labelSize: 22
+  readingSize: 64
+  space8: 8
+  space16: 16
+  space24: 24
+  space32: 32
+  space48: 48
+  padding: 24
+  hoverDuration: 0.12
+  pressDuration: 0.09
+  pressRecessMm: 4
+  tabSwitchDuration: 0.18
+  tabSwitchSlidePx: 12
+  dockDuration: 0.32
+  appearDuration: 0.22
+  snapDuration: 0.16
+  snapOvershoot: 0.04
+  dissolveDuration: 0.7
+  panelGlideDuration: 0.32
+  uiVolume: 0.5
+  glassMaterial: {fileID: 2100000, guid: a30c7ba6baffe4ec38cd982d549a2589, type: 2}
+  overlayMaterial: {fileID: 2100000, guid: a08960f540b7545ebad2c4cecc880b88, type: 2}
